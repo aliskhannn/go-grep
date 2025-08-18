@@ -1,0 +1,7 @@
+Hello World
+foo yes
+Bar
+baz
+FOO
+error: something bad
+ok
