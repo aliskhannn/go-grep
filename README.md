@@ -60,28 +60,28 @@ make build
 
 ```bash
 # Search for "foo" in a file
-./gogrep foo testdata/sample.txt
+./bin/gogrep foo testdata/sample.txt
 
 # Case-insensitive search
-./gogrep -i foo testdata/sample.txt
+./bin/gogrep -i foo testdata/sample.txt
 
 # Show line numbers
-./gogrep -n foo testdata/sample.txt
+./bin/gogrep -n foo testdata/sample.txt
 
 # Show 2 lines after each match
-./gogrep -A 2 foo testdata/sample.txt
+./bin/gogrep -A 2 foo testdata/sample.txt
 
 # Show 1 line before and after each match
-./gogrep -C 1 foo testdata/sample.txt
+./bin/gogrep -C 1 foo testdata/sample.txt
 
 # Invert match (show lines that do NOT contain the pattern)
-./gogrep -v foo testdata/sample.txt
+./bin/gogrep -v foo testdata/sample.txt
 
 # Count the number of matching lines
-./gogrep -c -i foo testdata/sample.txt
+./bin/gogrep -c -i foo testdata/sample.txt
 
 # Search using a fixed string instead of regex
-./gogrep -F "error: something bad" testdata/sample.txt
+./bin/gogrep -F "error: something bad" testdata/sample.txt
 ```
 
 ---
