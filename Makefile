@@ -18,6 +18,9 @@ lint:
 	go vet ./...
 	golangci-lint run ./...
 
+format:
+	goimports -local github.com/aliskhannn/wget-go -w .
+
 clean:
 	rm -rf ${BIN_DIR} out*.txt ref*.txt
 	rm -f gogrep

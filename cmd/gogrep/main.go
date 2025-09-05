@@ -2,9 +2,10 @@ package main
 
 import (
 	"fmt"
+	"os"
+
 	"github.com/aliskhannn/go-grep/internal/grep"
 	"github.com/spf13/pflag"
-	"os"
 )
 
 func main() {
